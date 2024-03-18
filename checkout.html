@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="./style.scss" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="" class="header__logo">
+                    <img src="./assets/logo.svg" alt="" />
+                </a>
+                <div class="button-mobile"><button>=</button></div>
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a href="/index.html" class="main-menu__link">Home</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="/Shop.html" class="main-menu__link">Shop</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="" class="main-menu__link">About</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="" class="main-menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-items">
+                    <div class="header-item-user">
+                        <span><img src="./assets/user.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/search.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/Like.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/cart.svg" /></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <section class="banner">
+        <img src="./image/Banner.png" alt="" class="banner__img" />
+        <p class="banner-text">Checkout</p>
+        <p class="banner-text__home">Home >
+            <span class="banner-text__shop">Checkout</span>
+        </p>
+    </section>
+    <!--End .banner-->
+
+    <section class="Check-out">
+        <div class="checkOut-list">
+            <div class="checkOut-bill">
+                <div class="checkOut-bill__title">
+                    <h1>Billing details</h1>
+                    <form class="checkOut-bill-form">
+                        <div class="checkOut-bill__name">
+                            <div class="checkOut-bill__first">
+                                <label for="">First Name</label>
+                                <input type="text" name="">
+                            </div>
+                            <div class="checkOut-bill__first">
+                                <label for="">Last Name</label>
+                                <input type="text" name="">
+                            </div>
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Company Name (Optional)</label>
+                            <input type="text" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Country / Region</label>
+                            <select class="checkOut-bill__input">
+                                <option class="checkOut-bill__option">Ha Noi</option>
+                                <option class="checkOut-bill__option">Thai Binh</option>
+                                <option class="checkOut-bill__option">Da Nang</option>
+                            </select>
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Street address</label>
+                            <input type="text" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Town / City</label>
+                            <input type="text" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Province</label>
+                            <select class="checkOut-bill__input">
+                                <option class="checkOut-bill__option">Ha Noi</option>
+                                <option class="checkOut-bill__option">Thai Binh</option>
+                                <option class="checkOut-bill__option">Da Nang</option>
+                            </select>
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">ZIP code</label>
+                            <input type="number" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Phone</label>
+                            <input type="number" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <label for="">Email address</label>
+                            <input type="email" class="checkOut-bill__input">
+                        </div>
+
+                        <div class="checkOut-bill__item">
+                            <input type="text" placeholder="Additional information" class="checkOut-bill__input">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="checkOut-products">
+                <div class="checkOut-totals">
+                    <div class="checkOut-totals__title">
+                        <span>Products</span>
+                        <span>Subtotal</span>
+                    </div>
+                    <div class="checkOut-totals__content">
+                        <span class="checkOut-totals__grey">Asgaard sofa</span>
+                        <span class="checkOut-totals__number"> x 1</span>
+                        <span>25.000.000đ</span>
+                    </div>
+                    <div class="checkOut-totals__content">
+                        <span>Subtotal</span>
+                        <span>25.000.000đ</span>
+                    </div>
+                    <div class="checkOut-totals__content">
+                        <span>Total</span>
+                        <span class="checkOut-totals__yellow">25.000.000đ</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="checkOut-content">
+                    <div class="checkOut-radio">
+                        <input type="radio" class="checkOut-input">
+                        <label>Direct Bank Transfer</label>
+                    </div>
+                    <div class="checkOut-content__grey">
+                        Make your payment directly into our bank account. Please use your Order ID as the payment
+                        reference. Your order will not be shipped until the funds have cleared in our account.
+                    </div>
+                    <div class="checkOut-radio">
+                        <input type="radio">
+                        <label for="">Direct Bank Transfer</label>
+                    </div>
+                    <div class="checkOut-radio">
+                        <input type="radio">
+                        <label for="">Cash On Delivery</label>
+                    </div>
+                    <div class="checkOut-content">
+                        Your personal data will be used to support your experience throughout this website, to manage
+                        access to your account, and for other purposes described in our
+                        <span class="checkOut-content__color">privacy policy</span>.
+                    </div>
+                </div>
+                <div class="checkOut-btn">
+                    <button type="button" class="checkOut-place">Place order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="services">
+        <div class="container-fluid">
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="./assets/cup.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/v.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">Warranty Protection</h4>
+                        <p class="service__description">Over 2 years</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/shipping.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">Free Shipping</h4>
+                        <p class="service__description">Order over 150 $</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/nghe.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">24 / 7 Support</h4>
+                        <p class="service__description">Dedicated support</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+            </div>
+        </div>
+    </section>
+    <!--End .services-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-list">
+                <div class="footer-item">
+                    <img src="./assets/logo.svg" alt="" />
+                    <p class="footer__address">
+                        400 University Drive Suite 200 Coral Gables, FL 33134 USA
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-item">
+                        <h2 class="footer__title">Links</h2>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Home</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Shop</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Blog</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer__title">Help</h2>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Payment Options</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Returns</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Privacy Policies</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer__title">Newsletter</h2>
+                    <form action="" class="newsletter">
+                        <input type="text" class="newsletter__input" placeholder="Enter Your Email Address" />
+                        <button class="newsletter__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="copyright">2023 furino. All rights reverved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

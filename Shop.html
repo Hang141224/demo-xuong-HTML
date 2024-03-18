@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="./style.scss" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="" class="header__logo">
+                    <img src="./assets/logo.svg" alt="" />
+                </a>
+                <div class="button-mobile"><button>=</button></div>
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a href="/index.html" class="main-menu__link">Home</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="/Shop.html" class="main-menu__link">Shop</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="" class="main-menu__link">About</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="" class="main-menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-items">
+                    <div class="header-item-user">
+                        <span><img src="./assets/user.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/search.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/Like.svg" /></span>
+                    </div>
+                    <div class="header-item-user">
+                        <span><img src="./assets/cart.svg" /></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="./image/Banner.png" alt="" class="banner__img" />
+        <p class="banner-text">Shop</p>
+        <p class="banner-text__home">Home >
+            <span class="banner-text__shop">Shop</span>
+        </p>
+    </section>
+
+    <section class="nav">
+        <div class="nav-list">
+            <div class="nav-items">
+                <div class="nav-item">
+                    <img src="./assets/icon 1.svg" alt="" class="nav__image">
+                    <span class="nav__name">Filter</span>
+                    <img src="./assets/icon 2.svg" alt="" class="nav__image">
+                    <img src="./assets/icon 3.svg" alt="" class="nav__image">
+                </div>
+                <div class="nav-show">
+                    <p>Showing 1-16 of 32 results</p>
+                </div>
+            </div>
+            <div class="nav-shows">
+                <div class="nav-item-show">
+                    <p class="nav-show__name">Show</p>
+                    <span class="nav-show__Stt">16</span>
+                </div>
+                <div class="nav-item-show">
+                    <p class="nav-show__name">Short by</p>
+                    <span class="nav-show__chu">Default</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product -->
+    <section class="news">
+        <div class="container">
+            <div class="section-body">
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 1.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">30%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Syltherine</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <span class="product-price__old"><del>3.500.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 2.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Leviosa</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 3.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">50%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Lolito</a>
+                            </h3>
+                            <a href="" class="product__category">Luxury big sofa</a>
+                            <div class="product-price">
+                                <span class="product-price__new">7.000.000đ</span>
+                                <span class="product-price__old"><del>14.000.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 4.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Respira</a>
+                            </h3>
+                            <a href="" class="product__category">Outdoor bar table and stool</a>
+                            <div class="product-price">
+                                <span class="product-price__new">5.000.000</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End .product-item-->
+                </div>
+
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 1.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">30%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Syltherine</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <span class="product-price__old"><del>3.500.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 2.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Leviosa</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 3.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">50%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Lolito</a>
+                            </h3>
+                            <a href="" class="product__category">Luxury big sofa</a>
+                            <div class="product-price">
+                                <span class="product-price__new">7.000.000đ</span>
+                                <span class="product-price__old"><del>14.000.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 4.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Respira</a>
+                            </h3>
+                            <a href="" class="product__category">Outdoor bar table and stool</a>
+                            <div class="product-price">
+                                <span class="product-price__new">5.000.000</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End .product-item-->
+                </div>
+
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 1.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">30%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Syltherine</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <span class="product-price__old"><del>3.500.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 2.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Leviosa</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 3.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">50%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Lolito</a>
+                            </h3>
+                            <a href="" class="product__category">Luxury big sofa</a>
+                            <div class="product-price">
+                                <span class="product-price__new">7.000.000đ</span>
+                                <span class="product-price__old"><del>14.000.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 4.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Respira</a>
+                            </h3>
+                            <a href="" class="product__category">Outdoor bar table and stool</a>
+                            <div class="product-price">
+                                <span class="product-price__new">5.000.000</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End .product-item-->
+                </div>
+
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 1.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">30%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Syltherine</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <span class="product-price__old"><del>3.500.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 2.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Leviosa</a>
+                            </h3>
+                            <a href="" class="product__category">Stylish cafe chair</a>
+                            <div class="product-price">
+                                <span class="product-price__new">2.500.000đ</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 3.png" alt="" class="product__thumbnail" />
+                            <span class="product-sale">50%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Lolito</a>
+                            </h3>
+                            <a href="" class="product__category">Luxury big sofa</a>
+                            <div class="product-price">
+                                <span class="product-price__new">7.000.000đ</span>
+                                <span class="product-price__old"><del>14.000.000đ</del></span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./image/New/new 4.png" alt="" class="product__thumbnail" />
+                            <span class="product-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product__name">
+                                <a href="" class="product__link">Respira</a>
+                            </h3>
+                            <a href="" class="product__category">Outdoor bar table and stool</a>
+                            <div class="product-price">
+                                <span class="product-price__new">5.000.000</span>
+                                <!-- <span class="product-price__old">$300</span> -->
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn product-action__quickview">Quick View</button>
+                            <button class="btn product-action__addtocart">Add To Cart</button>
+                            <div class="product-actions-more">
+                                <span class="product-action__share">Share</span>
+                                <span class="product-action__compare">Compare</span>
+                                <span class="product-action__like">Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End .product-item-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="Product-btn">
+        <span class="Product-btn__Sl">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>Next</span>
+    </div>
+
+
+    <!-- ==== -->
+    <section class="services">
+        <div class="container-fluid">
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="./assets/cup.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/v.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">Warranty Protection</h4>
+                        <p class="service__description">Over 2 years</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/shipping.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">Free Shipping</h4>
+                        <p class="service__description">Order over 150 $</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="./assets/nghe.svg" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">24 / 7 Support</h4>
+                        <p class="service__description">Dedicated support</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-list">
+                <div class="footer-item">
+                    <img src="./assets/logo.svg" alt="" />
+                    <p class="footer__address">
+                        400 University Drive Suite 200 Coral Gables, FL 33134 USA
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-item">
+                        <h2 class="footer__title">Links</h2>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Home</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Shop</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Blog</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer__title">Help</h2>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Payment Options</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Returns</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Privacy Policies</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="" class="footer-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer__title">Newsletter</h2>
+                    <form action="" class="newsletter">
+                        <input type="text" class="newsletter__input" placeholder="Enter Your Email Address" />
+                        <button class="newsletter__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="copyright">2023 furino. All rights reverved</p>
+        </div>
+    </footer>
+    <div class="container">
+        <hr />
+    </div>
+
+    <body>
+
+    </body>
+
+</html>
